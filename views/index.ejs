@@ -1,0 +1,142 @@
+<%- include("./partials/header.ejs") %>
+
+
+    <body>
+        <%- include("./partials/navbar.ejs") %>
+            <section id="top" class="clearfix">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="top clearfix">
+                                <h2>SWEET TASTE AND HEALTHY</h2>
+                                <hr class="hr_1">
+                                <h4>Serving everyone is the motivation to keep growing our company</h4>
+                                <p><a href="/about">ABOUT US</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="center_1" class="clearfix">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="center_1 clearfix">
+                                <h2>Why Us?</h2>
+                                <h4>We value the impact we make across</h4>
+                                <hr class="hr_2">
+                            </div>
+                            <div class=" center_1_main clearfix">
+                                <div class="col-sm-4 center_1_left clearfix">
+                                    <div class="center_1_left_inner clearfix">
+                                        <p class="aniview" data-av-animation="slideInRight"><img src="img/circular.jpg"
+                                                class="img-circle" /></p>
+                                        <h4><a href="#">The problem</a></h4>
+                                        <h5>The production of honey in kirehe district is not enough given the demand of
+                                            natural honey given the demand</h5>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 center_1_left clearfix">
+                                    <div class="center_1_left_inner clearfix">
+                                        <p class="aniview" data-av-animation="slideInDown"><img src="img/img2.png"
+                                                class="img-circle" /></p>
+                                        <h4><a href="#">The solution</a></h4>
+                                        <h5>Bee raising group ltd creates jobs for youth and increased supply of honey.
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 center_1_left clearfix">
+                                    <div class="center_1_left_inner clearfix">
+                                        <p class="aniview" data-av-animation="slideInLeft"><img src="img/feeds.png"
+                                                class="img-circle" /></p>
+                                        <h4><a href="#">Innovation</a></h4>
+                                        <h5>we make body lotion, lip sticks, shoe polish, soaps and candles from the
+                                            wax. </h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="center_3" class="clearfix">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="center_3 clearfix">
+                                <h2>Our Team</h2>
+                                <p>The team behind what we offers</p>
+                                <hr class="hr_2">
+                            </div>
+                            <div class="center_3_top clearfix " style="justify-content: space-evenly; display:flex">
+
+                                <div class="col-sm-4 center_3_top_left clearfix">
+                                    <div class="center_3_top_left_inner clearfix">
+                                        <div class="ih-item circle colored effect16 left_to_right"><a href="#">
+                                                <div class="img"><img src="img/product1.png" alt="img"></div>
+                                                <div class="info">
+                                                    <h3>CEO and Founder</h3>
+                                                    <p></p>
+                                                </div>
+                                            </a></div>
+                                    </div>
+                                    <div class="center_3_top_left_inner_2 clearfix">
+                                        <h4 class="aniview" data-av-animation="slideInDown"><a href="#">CEO and
+                                                Founder</a>
+                                        </h4>
+
+
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 center_3_top_left clearfix">
+                                    <div class="center_3_top_left_inner clearfix">
+                                        <div class="ih-item circle colored effect16 left_to_right"><a href="#">
+                                                <div class="img"><img src="img/product2.png" alt="img"></div>
+                                                <div class="info">
+                                                    <h3>Production Manager</h3>
+                                                    <p></p>
+                                                </div>
+                                            </a></div>
+                                    </div>
+                                    <div class="center_3_top_left_inner_2 clearfix">
+                                        <h4 class="aniview" data-av-animation="slideInLeft"><a href="#">Production
+                                                Manager</a>
+                                        </h4>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <%- include("./partials/footer.ejs") %>
+
+
+
+
+                <script src="js/classie.js"></script>
+                <script src="js/cbpAnimatedHeader.js"></script>
+                <script type="text/javascript">
+                    $(document).ready(function () {
+                        $('i.glyphicon-thumbs-up, i.glyphicon-thumbs-down').click(function () {
+                            var $this = $(this),
+                                c = $this.data('count');
+                            if (!c) c = 0;
+                            c++;
+                            $this.data('count', c);
+                            $('#' + this.id + '-bs3').html(c);
+                        });
+                        $(document).delegate('*[data-toggle="lightbox"]', 'click', function (event) {
+                            event.preventDefault();
+                            $(this).ekkoLightbox();
+                        });
+                    });
+
+                </script>
+    </body>
+
+    </html>

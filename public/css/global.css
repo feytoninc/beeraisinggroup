@@ -1,0 +1,154 @@
+/*
+Template Name:Wild Nature
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+a{
+ color:#333;
+ }
+a:hover{
+text-decoration:none;
+color:#333;
+}
+ul{
+padding:0;
+margin:0;
+list-style:none;
+}
+li{
+  font-size:16px;
+  }
+p{
+font-size:16px;
+}
+h1{
+font-size:45px;
+font-weight:bold;
+}
+h2{
+font-size:36px;
+font-weight:bold;
+}
+h3{
+font-size:30px;
+font-weight:bold;
+}
+h4{
+font-size:24px;
+font-weight:bold;
+}
+h5{
+font-size:18px;
+}
+h6{
+font-size:16px;
+}
+.space_left{
+padding-left:0; 
+} 
+.space_right{
+padding-right:0;
+} 
+.space_all{
+padding:0; 
+} 
+.iw{
+   width:100%;
+   }
+.border_none{
+  border:none!important;
+  }
+.mgt{
+  margin-top:0!important;
+  }
+ .pdb{
+  padding-bottom:0!important;
+  }
+.bold{
+ font-weight:bold;
+  }
+.normal{
+ font-weight:100!important;
+  }
+.col{
+color:#fff;  
+  }
+ /*********************about****************/
+#about_pg{
+ padding-top:40px;
+ padding-bottom:40px;
+ }
+.about_pg_right_il span i{
+background:#006633;
+color:#fff;
+text-align:center;
+width:60px;
+height:60px;
+line-height:60px;
+font-size:25px;
+border-radius:50%; 
+ }
+.about_pg_right_i{
+margin-top:30px; 
+ }
+.about_pg_right{
+ background:#19744638;
+ min-height:500px;
+ padding:52px 30px;
+ }
+.about_pg_left img{
+ min-height:500px;
+ }
+.bg_1{
+background:#19744617;
+ }
+/*********************about_end****************/
+/*********************feature****************/
+#feature{
+padding-top:40px;
+padding-bottom:40px; 
+ }
+.feature_2i span i{
+border:1px solid #006633;
+color:#000;
+text-align:center;
+width:70px;
+height:70px;
+line-height:70px;
+font-size:25px;
+border-radius:50%; 
+ }
+.feature_2i{
+border-right:1px solid #ddd;
+padding:40px; 
+ }
+.feature_2i h3{
+color:#006633;
+margin-top:25px; 
+ }
+.feature_2{
+border-bottom:1px solid #ddd; 
+ }
+.feature_1{
+margin-bottom:40px; 
+ }
+.feature_1  h3{
+color:#006633; 
+ }
+/*********************feature_end****************/
+
+@media screen and (max-width : 767px){
+ .space_left{
+padding-left:15px; 
+} 
+.space_right{
+padding-right:15px;
+} 
+.space_all{
+padding-right:15px;
+padding-left:15px;
+} 
+ }
+

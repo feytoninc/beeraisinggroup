@@ -1,0 +1,5 @@
+deployment:
+ tasks:
+ - npm install
+ - export DEPLOYPATH=/home/isancjhv/indintambwefeeds.rw/
+ - /bin/cp public/* $DEPLOYPATH
