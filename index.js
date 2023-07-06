@@ -2,6 +2,7 @@ const express = require("express");
 const path = require("path");
 const multer = require("multer");
 const upload = multer();
+const dotenv = require("dotenv").config()
 
 const PORT = process.env.PORT || 5000;
 
